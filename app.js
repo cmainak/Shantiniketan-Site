@@ -7,7 +7,8 @@ const playlists = {
         { title: "Prano Bhoriye Trisha Horiye", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prakriti/Pran Bhoriye.mp3", coverUrl: "assets/covers/prakriti/Prano Bhoriye.jpg" },
         { title: "Megher Kole Rod Hesechhe", artist: "Asha Bhosle", fileUrl: "assets/audio/prakriti/Megher Kole Rod Hesechhe মঘর কল রদ হসছ Asha Bhosle Rabindranath Tagore.mp3", coverUrl: "assets/covers/prakriti/Megher.jpg" },
         { title: "Esho Hey Baisakh", artist: "Lopamudra Mitra", fileUrl: "assets/audio/prakriti/Eso Hey Boishakh Lopamudra Mitra Team Lopamudra Mitra.mp3", coverUrl: "assets/covers/prakriti/Esho ai Boishaakh.jpg" },
-        { title: "Aaji Jhorer Rate", artist: "Srabani Sen|", fileUrl: "assets/audio/prakriti/Aaji Jhorer Rate Lyrical Video Song Srabani Sen Top Bengali Rainy Song Bhavna Records.mp3", coverUrl: "assets/covers/prakriti/Aaji Jhore Raate.jpeg" }
+        { title: "Aaji Jhorer Rate", artist: "Srabani Sen|", fileUrl: "assets/audio/prakriti/Aaji Jhorer Rate Lyrical Video Song Srabani Sen Top Bengali Rainy Song Bhavna Records.mp3", coverUrl: "assets/covers/prakriti/Aaji Jhore Raate.jpeg" },
+        { title: "Akash Bhora", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prakriti/Akash Bhora Audio Song Ebong Jayati (এব জযত) Jayati, Arena, Brishtilekha Prattyush Banerjee.mp3", coverUrl: "assets/covers/prakriti/Akaash Bhora.jpg" },
     ],
     prem: [
         { title: "Amar Porano Jaha Chay", artist: "Arijit Singh", fileUrl: "assets/audio/prem/AmaroParanoJahaChay.mp3", coverUrl: "assets/covers/prem/amar o porano.jpg" },
