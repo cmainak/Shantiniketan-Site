@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>KHOAI — Rabindra Sangeet Listening Room</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <svg style="display: none;" aria-hidden="true">
+        <filter id="grain">
+            <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+        </filter>
+    </svg>
+    <div class="grain-overlay"></div>
+
+    <div class="hero-bg"></div>
+    <div class="bg-gradient"></div>
+
+    <main>
+        <header class="topbar">
+            <div class="clock" id="clock" aria-label="India time">SHANTINIKETAN · --:-- --</div>
+            
+            <div class="listeners" aria-label="Current listeners">
+                <span class="listener-dot"></span>
+                1,284 listeners
+              </div>
+
+            <nav class="social" aria-label="Playlists">
+                <select id="playlist-selector" aria-label="Select Parjaay">
+                    <option value="prakriti">Prakriti (Seasons)</option>
+                    <option value="prem" selected>Prem (Love)</option>
+                    <option value="puja">Puja (Worship)</option>
+                    <option value="bichitro">Bichitro (Misc)</option>
+                </select>
+            </nav>
+        </header>
+
+        <section class="hero-copy" aria-label="Site introduction">
+            <div class="eyebrow">OPEN-AIR ARCHIVE · SHANTINIKETAN</div>
+            <h1>Khoai</h1>
+            <p>Rabindra Sangeet beneath the Chhatim trees.</p>
+          </section>
+
+        <div class="player-wrapper">
+            <div class="player-card">
+                
+                <div class="track-info-group">
+                    <div class="vinyl-container" id="vinyl-cover" style="background-image: url('public/covers/default.jpg');">
+                        <div class="spindle-hole"></div>
+                    </div>
+                    <div class="track-text">
+                        <h2 id="track-title" class="truncate">Loading...</h2>
+                        <p id="track-artist" class="truncate">Please wait</p>
+                    </div>
+                </div>
+
+                <div class="seek-group">
+                    <input type="range" id="seek-bar" min="0" max="100" value="0" aria-label="Seek track" step="0.1">
+                </div>
+
+                <div class="controls-group">
+                    <div class="timestamps">
+                        <span id="time-elapsed">0:00</span>
+                        <span>/</span>
+                        <span id="time-duration">-:--</span>
+                    </div>
+                    <div class="transport">
+                        <button id="btn-prev" class="icon-btn" aria-label="Previous track">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+                        </button>   
+                        <button id="btn-play" class="play-btn" aria-label="Play">
+                            <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            <svg id="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                        </button>
+                        <button id="btn-next" class="icon-btn" aria-label="Next track">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+                        </button>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-backdrop" id="aboutModal" hidden>
+                <section class="about-modal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" aria-describedby="aboutDescription">
+                  <button class="modal-close" id="aboutClose" type="button" aria-label="Close about window">×</button>
+          
+                  <div class="modal-kicker">EDITORIAL ESSAY · THE SOUND OF SHANTINIKETAN</div>
+                  <h2 id="aboutTitle">गीत के भीतर एक आकाश</h2>
+                  <p class="modal-quote">“जहाँ मन भय से मुक्त हो…”</p>
+          
+                  <div class="modal-scroll">
+                    <p id="aboutDescription">
+                      <strong>Khoai</strong> is a small digital listening room inspired by the open-air spirit of Shantiniketan — red laterite earth, Chhatim trees, quiet conversation and music that feels inseparable from landscape.
+                    </p>
+          
+                    <p>
+                      At its heart is <strong>Rabindra Sangeet</strong>, the body of songs written and composed by Rabindranath Tagore. These songs move between devotion, love, nature, seasons, human longing and the everyday world. Rather than treating a song as a museum object, this page imagines it as something heard in the open air — carried by wind, rain, memory and the rhythm of walking.
+                    </p>
+          
+                    <div class="about-grid">
+                      <article class="about-card">
+                        <div class="about-card-icon">♫</div>
+                        <h3>RABINDRA SANGEET</h3>
+                        <p>Poetry and melody held together. The song can be intimate, devotional, seasonal or quietly philosophical.</p>
+                      </article>
+          
+                      <article class="about-card">
+                        <div class="about-card-icon">◌</div>
+                        <h3>THE PARJAAYS</h3>
+                        <p>Listen through themes such as <em>Prakriti</em> (nature), <em>Prem</em> (love), <em>Swadesh</em> (homeland) and <em>Bichitro</em> (the varied and miscellaneous).</p>
+                      </article>
+                    </div>
+          
+                    <div class="about-rule"></div>
+          
+                    <div class="about-footer">
+                      <span><span class="footer-mark">✦</span> A listening room for memory</span>
+                      <span><span class="footer-mark">◈</span> ESTD. 2026</span>
+                    </div>
+                  </div>
+                </section>
+          
+        </div>
+    </main>
+    <script src="app.js"></script>
+    
+</body>
+</html>
