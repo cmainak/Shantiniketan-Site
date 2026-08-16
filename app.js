@@ -16,7 +16,7 @@ const playlists = {
         { title: "Tobu Mone Rekho", artist: "Srabani Sen and Sabyasachi Chakraborty", fileUrl: "assets/audio/prem/Tobu Mone Rekho Srabani Sen Sabyasachi Chakraborty Audio Song.mp3", coverUrl: "assets/covers/prem/Tobu Mone Rekho.jpg" },
         { title: "Sokhi Bhabona Kahare Bole", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prem/Sakhi Bhabana Kahare Bole Jayati Chakraborty সখ ভবন কহর বল Rabindra Sangeet 2021.mp3", coverUrl: "assets/covers/prem/Sokhi bhabona.jpeg" },
         { title: "Kotobaro Bhebechinu", artist: "Mekhla Dasgupta", fileUrl: "assets/audio/prem/Kotobaro Bhebechinu.mp3", coverUrl: "assets/covers/prem/Kotobaro Bhebechinu.jpeg" },
-        { title: "Tumi Robe Nirobe", artist: "Srikanto Acharya", fileUrl: "assets/audio/prem/Tumi Robe Nirobe.mp3", coverUrl: "assets/covers/prem/Tumi Robe Nirobe.jpeg" }
+        { title: "Tumi Robe Nirobe", artist: "Srikanto Acharya", fileUrl: "assets/audio/prem/Tumi Rabe Nirabe.mp3", coverUrl: "assets/covers/prem/Tumi Robe Nirobe.jpeg" }
     ],
     puja: [
         { title: "Anandaloke Mongolaloke", artist: "Sanjeevani Bhelande", fileUrl: "assets/audio/puja/anandaloke.mp3", coverUrl: "assets/covers/puja/cover-puja-1.jpg" },
