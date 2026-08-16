@@ -15,7 +15,7 @@ const playlists = {
         { title: "Amar Porano Jaha Chay", artist: "Arijit Singh", fileUrl: "assets/audio/prem/AmaroParanoJahaChay.mp3", coverUrl: "assets/covers/prem/amar o porano.jpg" },
         { title: "Tobu Mone Rekho", artist: "Srabani Sen and Sabyasachi Chakraborty", fileUrl: "assets/audio/prem/Tobu Mone Rekho Srabani Sen Sabyasachi Chakraborty Audio Song.mp3", coverUrl: "assets/covers/prem/Tobu Mone Rekho.jpg" },
         { title: "Sokhi Bhabona Kahare Bole", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prem/Sakhi Bhabana Kahare Bole Jayati Chakraborty সখ ভবন কহর বল Rabindra Sangeet 2021.mp3", coverUrl: "assets/covers/prem/Sokhi bhabona.jpeg" },
-        { title: "Bhalobashi Bhalobashi", artist: "Kishore Kumar", fileUrl: "assets/audio/prem/bhalobashi.mp3", coverUrl: "assets/covers/prem/.jpg" },
+        { title: "Kotobaro Bhebechinu", artist: "Mekhla Dasgupta", fileUrl: "assets/audio/prem/Kotobaro Bhebechinu.mp3", coverUrl: "assets/covers/prem/Kotobaro Bhebechinu.jpeg" },
         { title: "Mayabonobiharini Horini", artist: "Somlata Acharyya", fileUrl: "assets/audio/prem/mayabonobiharini.mp3", coverUrl: "assets/covers/prem/.jpg" }
     ],
     puja: [
