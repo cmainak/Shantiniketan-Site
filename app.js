@@ -3,12 +3,13 @@
 // 1. Playlists Database (Paths unified to 'assets/' or 'public/' based on your folder)
 const playlists = {
     prakriti: [
+        { title: "Akash Bhora", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prakriti/Akash Bhora Audio Song Ebong Jayati.mp3", coverUrl: "assets/covers/prakriti/Akaash Bhora.jpg" },
         { title: "Pagla Hawar Badol Dine", artist: "Sraboni Sen", fileUrl: "assets/audio/prakriti/Pagla Hawar Badol Dine(পগল হওয়র বদল দন) -Lyrical Song Sraboni Sen Khelaghar.mp3", coverUrl: "assets/covers/prakriti/Pagla Hawa.jpg" },
         { title: "Prano Bhoriye Trisha Horiye", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prakriti/Pran Bhoriye.mp3", coverUrl: "assets/covers/prakriti/Prano Bhoriye.jpg" },
         { title: "Megher Kole Rod Hesechhe", artist: "Asha Bhosle", fileUrl: "assets/audio/prakriti/Megher Kole Rod Hesechhe মঘর কল রদ হসছ Asha Bhosle Rabindranath Tagore.mp3", coverUrl: "assets/covers/prakriti/Megher.jpg" },
         { title: "Esho Hey Baisakh", artist: "Lopamudra Mitra", fileUrl: "assets/audio/prakriti/Eso Hey Boishakh Lopamudra Mitra Team Lopamudra Mitra.mp3", coverUrl: "assets/covers/prakriti/Esho ai Boishaakh.jpg" },
         { title: "Aaji Jhorer Rate", artist: "Srabani Sen|", fileUrl: "assets/audio/prakriti/Aaji Jhorer Rate Lyrical Video Song Srabani Sen Top Bengali Rainy Song Bhavna Records.mp3", coverUrl: "assets/covers/prakriti/Aaji Jhore Raate.jpeg" },
-        { title: "Akash Bhora", artist: "Jayati Chakraborty", fileUrl: "assets/audio/prakriti/Akash Bhora Audio Song Ebong Jayati (এব জযত) Jayati, Arena, Brishtilekha Prattyush Banerjee.mp3", coverUrl: "assets/covers/prakriti/Akaash Bhora.jpg" },
+       
     ],
     prem: [
         { title: "Amar Porano Jaha Chay", artist: "Arijit Singh", fileUrl: "assets/audio/prem/AmaroParanoJahaChay.mp3", coverUrl: "assets/covers/prem/amar o porano.jpg" },
@@ -18,18 +19,18 @@ const playlists = {
         { title: "Mayabonobiharini Horini", artist: "Somlata Acharyya", fileUrl: "assets/audio/prem/mayabonobiharini.mp3", coverUrl: "assets/covers/prem/.jpg" }
     ],
     puja: [
-        { title: "Anandaloke Mongolaloke", artist: "Sanjeevani Bhelande", fileUrl: "assets/audio/puja/anandaloke.mp3", coverUrl: "assets/covers/cover-puja-1.jpg" },
-        { title: "Akash Bhora Surjo Tara", artist: "Hemanta Mukherjee", fileUrl: "assets/audio/puja/akash-bhora.mp3", coverUrl: "assets/covers/cover-puja-2.jpg" },
-        { title: "Tumi Kemon Kore Gan Koro", artist: "Swagatalakshmi Dasgupta", fileUrl: "assets/audio/puja/tumi-kemon.mp3", coverUrl: "assets/covers/cover-puja-3.jpg" },
-        { title: "Aguner Poroshmoni Chhoao Prane", artist: "Lopamudra Mitra", fileUrl: "assets/audio/puja/aguner-poroshmoni.mp3", coverUrl: "assets/covers/cover-puja-4.jpg" },
-        { title: "Bina Bajao He", artist: "Sanjida Khatun", fileUrl: "assets/audio/puja/bina-bajao.mp3", coverUrl: "assets/covers/cover-puja-5.jpg" }
+        { title: "Anandaloke Mongolaloke", artist: "Sanjeevani Bhelande", fileUrl: "assets/audio/puja/anandaloke.mp3", coverUrl: "assets/covers/puja/cover-puja-1.jpg" },
+        { title: "Akash Bhora Surjo Tara", artist: "Hemanta Mukherjee", fileUrl: "assets/audio/puja/akash-bhora.mp3", coverUrl: "assets/covers/puja/cover-puja-2.jpg" },
+        { title: "Tumi Kemon Kore Gan Koro", artist: "Swagatalakshmi Dasgupta", fileUrl: "assets/audio/puja/tumi-kemon.mp3", coverUrl: "assets/covers/puja/cover-puja-3.jpg" },
+        { title: "Aguner Poroshmoni Chhoao Prane", artist: "Lopamudra Mitra", fileUrl: "assets/audio/puja/aguner-poroshmoni.mp3", coverUrl: "assets/covers/puja/cover-puja-4.jpg" },
+        { title: "Bina Bajao He", artist: "Sanjida Khatun", fileUrl: "assets/audio/puja/bina-bajao.mp3", coverUrl: "assets/covers/puja/cover-puja-5.jpg" }
     ],
     bichitro: [
-        { title: "Purano Sei Diner Kotha", artist: "Kishore Kumar & Hemanta", fileUrl: "assets/audio/bichitro/purano-sei.mp3", coverUrl: "assets/covers/cover-bichitro-1.jpg" },
-        { title: "Dinguli Mor Sonar", artist: "Mohiuzzaman Chowdhury", fileUrl: "assets/audio/bichitro/dinguli-mor.mp3", coverUrl: "assets/covers/cover-bichitro-2.jpg" },
-        { title: "Tumi Ki Keboli Chhobi", artist: "Indranil Sen", fileUrl: "assets/audio/bichitro/tumi-ki.mp3", coverUrl: "assets/covers/cover-bichitro-3.jpg" },
-        { title: "Khelaghor Badhte Legechhi", artist: "Naima Islam Naj", fileUrl: "assets/audio/bichitro/khelaghor.mp3", coverUrl: "assets/covers/cover-bichitro-4.jpg" },
-        { title: "Ami Keboli Swapan", artist: "Sumona Haque", fileUrl: "assets/audio/bichitro/ami-keboli.mp3", coverUrl: "assets/covers/cover-bichitro-5.jpg" }
+        { title: "Purano Sei Diner Kotha", artist: "Kishore Kumar & Hemanta", fileUrl: "assets/audio/bichitro/purano-sei.mp3", coverUrl: "assets/covers/bichitro/cover-bichitro-1.jpg" },
+        { title: "Dinguli Mor Sonar", artist: "Mohiuzzaman Chowdhury", fileUrl: "assets/audio/bichitro/dinguli-mor.mp3", coverUrl: "assets/covers/bichitro/cover-bichitro-2.jpg" },
+        { title: "Tumi Ki Keboli Chhobi", artist: "Indranil Sen", fileUrl: "assets/audio/bichitro/tumi-ki.mp3", coverUrl: "assets/covers/bichitro/cover-bichitro-3.jpg" },
+        { title: "Khelaghor Badhte Legechhi", artist: "Naima Islam Naj", fileUrl: "assets/audio/bichitro/khelaghor.mp3", coverUrl: "assets/covers/bichitro/cover-bichitro-4.jpg" },
+        { title: "Ami Keboli Swapan", artist: "Sumona Haque", fileUrl: "assets/audio/bichitro/ami-keboli.mp3", coverUrl: "assets/covers/bichitro/cover-bichitro-5.jpg" }
     ]
 };
 
